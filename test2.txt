@@ -1,0 +1,46 @@
+   // for using floor from math library (alternative way)
+   func2 = from <math> => < floor>;
+   // for using floor and rand from math
+   func1,func2 = from <math> require <floor> , from <math> require <rand>;
+ 
+
+class sell begin
+              int pp=1.10e-10;
+              double price;
+              Car car = Car("ford");
+              sell(double priceNoTax,string name) begin
+                  this.price=priceNoTax;
+                  this.name = "ford";
+              end
+              string calPrice(prices ,int tax) begin
+                  
+                  for $4_x in prices begin
+                       $4_x = calprice(tax,price);
+                  end
+                     
+ 
+                   try begin
+                       switch price begin
+                       case "ford":
+                           if(price!=null)begin
+                               price = (tax*price)%10;
+                               return price;
+			   end
+                       break;
+                       case "pride":
+                       case "Bmw":
+                           Dec=("enough");
+                       break;
+                       default:
+                           dec = ("try again");
+                       end
+                   end
+                   catch(xx) begin
+                        print(err, "oops.");
+                   end
+ 
+                   return tax;
+              end
+ 
+ 
+      end

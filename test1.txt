@@ -1,0 +1,46 @@
+ // for using math library
+   lib1 = require <math>;
+   // for using floor from math library
+   func1 = from <math> require <floor>;
+
+   class sli begin
+              int xx=1.10e-10;
+              double array[]=[4,5];
+              Car car = Car(3,"car1");
+              sli(int xx,int yy) begin
+                  this.xx=yy;
+                  this.pt = 76;
+              end
+              string testMethod(xx ,char cc='c') begin
+                   for(int xx = 0; xx < 34 and yy!=5; xx++) begin
+                      for(ii=2;ii>'j' or ii>6.6;) begin
+                          sum += 6;
+                          int pp=0;
+                      end
+                   end
+ 
+                   while ($i!=0) begin
+                       bool hh=false;
+                       List list= List(2);
+                   end
+ 
+                   do begin
+                       string ss = "name"+"d";
+                   end while(ss!="named")
+ 
+                   if(aa==0&&bb>'f') begin
+                       aa++;
+                   end
+                   else if(aa--=1) begin
+                       aa*=2;
+                   end
+                   else begin
+                       aa=4;
+                   end
+ 
+            
+                   return Null;
+              end
+ 
+ 
+      end
